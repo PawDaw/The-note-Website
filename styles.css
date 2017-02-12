@@ -1,0 +1,46 @@
+            h3{
+                color:#ffffff;
+                size:14;
+                font-family: "Comic Sans MS", cursive, sans-serif;
+                text-align: center ;
+                
+            }
+            
+            h3 {
+                position: relative;
+                margin-top: 50px;
+                margin-left: -22px; /* 15px padding + 7px border ribbon shadow*/
+                margin-right: -22px;
+                padding: 15px;
+                background:  #66cfff;
+                background: linear-gradient(#e6f7ff, #66cfff);
+                box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+                text-shadow: 0 1px 0 #fff;
+               }
+
+           h3:before,
+           h3:after {
+               position: absolute;
+               left: 0;
+               bottom: -6px;
+               content:'';
+               border-top: 6px solid #555;
+               border-left: 6px solid transparent;
+           }
+
+          h3:before {
+               border-top: 6px solid #555;
+               border-right: 6px solid transparent;
+               border-left: none;
+               left: auto;
+               right: 0;
+               bottom: -6px;
+           }
+           
+           #logout{
+
+                float: right;
+                margin-top:  10px;
+                margin-right: 5px;
+    
+           }
